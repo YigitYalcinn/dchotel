@@ -23,7 +23,7 @@ export default function ReservationPage() {
     {
       id: 1,
       title: t('rooms.single.title'),
-      image: "public/img/tek.jpeg",
+      image: "/img/tek.jpeg",
       features: [
         { icon: <Wifi className="w-4 h-4" />, text: t('rooms.single.features.wifi') },
         { icon: <Bath className="w-4 h-4" />, text: t('rooms.single.features.jacuzzi') },
@@ -34,7 +34,7 @@ export default function ReservationPage() {
     {
       id: 2,
       title: t('rooms.double.title'),
-      image: "public/img/iki.jpeg",
+      image: "/img/iki.jpeg",
       features: [
         { icon: <Wifi className="w-4 h-4" />, text: t('rooms.double.features.wifi') },
         { icon: <Utensils className="w-4 h-4" />, text: t('rooms.double.features.roomService') },
@@ -45,7 +45,7 @@ export default function ReservationPage() {
     {
       id: 3,
       title: t('rooms.family.title'),
-      image: "public/img/aile.jpeg",
+      image: "/img/aile.jpeg",
       features: [
         { icon: <Wifi className="w-4 h-4" />, text: t('rooms.family.features.wifi') },
         { icon: <Bath className="w-4 h-4" />, text: t('rooms.family.features.privateBath') },

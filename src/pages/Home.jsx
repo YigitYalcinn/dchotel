@@ -186,7 +186,7 @@ const Home = () => {
           title="MODERN STAY"
           subtitle="Lüks ve konforun buluşma noktası."
           description="Şehrin merkezinde huzurlu bir kaçamak için ideal seçim."
-          bgImage="public/img/kart1.jpeg"
+          bgImage="/img/kart1.jpeg"
           comments={10}
           date="21.08.2025"
         />
@@ -249,7 +249,7 @@ const Home = () => {
           title="MODERN STAY"
           subtitle="Lüks ve konforun buluşma noktası."
           description="Şehrin merkezinde huzurlu bir kaçamak için ideal seçim."
-          bgImage="public/img/kart1.jpeg"
+          bgImage="/img/kart1.jpeg"
           comments={10}
           date="21.08.2025"
         />
@@ -294,7 +294,7 @@ const Home = () => {
       <div className="flex-1 border border-black rounded-2xl overflow-hidden group transition-transform duration-500 hover:scale-[1.02] bg-white">
         <div className="flex flex-col md:flex-row h-full">
           <div className="md:w-1/2 h-[400px]">
-            <img src="public/img/iskin.jpg" alt="Işkın" className="w-full h-full object-cover" />
+            <img src="/img/iskin.jpg" alt="Işkın" className="w-full h-full object-cover" />
           </div>
           <div className="md:w-1/2 p-8 flex flex-col justify-center">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">
@@ -309,8 +309,8 @@ const Home = () => {
 
       {/* Sağdaki 2 Görsel */}
       <div className="hidden lg:flex flex-col gap-6 ">
-        <img src="public/img/iskin2.jpeg" alt="Sağ Görsel 1" className="w-[260px] h-[190px] object-cover rounded-2xl shadow-lg overflow-hidden group transition-transform duration-500 hover:scale-[1.02] bg-white" />
-        <img src="public/img/iskin3.jpeg" alt="Sağ Görsel 2" className="w-[260px] h-[190px] object-cover rounded-2xl shadow-lg overflow-hidden group transition-transform duration-500 hover:scale-[1.02] bg-white" />
+        <img src="/img/iskin2.jpeg" alt="Sağ Görsel 1" className="w-[260px] h-[190px] object-cover rounded-2xl shadow-lg overflow-hidden group transition-transform duration-500 hover:scale-[1.02] bg-white" />
+        <img src="/img/iskin3.jpeg" alt="Sağ Görsel 2" className="w-[260px] h-[190px] object-cover rounded-2xl shadow-lg overflow-hidden group transition-transform duration-500 hover:scale-[1.02] bg-white" />
       </div>
     </div>
 
@@ -321,7 +321,7 @@ const Home = () => {
       <div className="flex-1 border border-black rounded-2xl overflow-hidden group transition-transform duration-500 hover:scale-[1.02] bg-white">
         <div className="flex flex-col md:flex-row h-full">
           <div className="md:w-1/2 h-[400px]">
-            <img src="public/img/resto.jpg" alt="Restaurant" className="w-full h-full object-cover" />
+            <img src="/img/resto.jpg" alt="Restaurant" className="w-full h-full object-cover" />
           </div>
           <div className="md:w-1/2 p-8 flex flex-col justify-center">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">
@@ -336,8 +336,8 @@ const Home = () => {
 
       {/* Soldaki 2 Görsel */}
       <div className="hidden lg:flex flex-col gap-6">
-        <img src="public/img/yemek1.jpeg" alt="Sol Görsel 1" className="w-[260px] h-[190px] object-cover rounded-2xl shadow-lg overflow-hidden group transition-transform duration-500 hover:scale-[1.02] bg-white" />
-        <img src="public/img/yemek2.jpeg" alt="Sol Görsel 2" className="w-[260px] h-[190px] object-cover rounded-2xl shadow-lg overflow-hidden group transition-transform duration-500 hover:scale-[1.02] bg-white" />
+        <img src="/img/yemek1.jpeg" alt="Sol Görsel 1" className="w-[260px] h-[190px] object-cover rounded-2xl shadow-lg overflow-hidden group transition-transform duration-500 hover:scale-[1.02] bg-white" />
+        <img src="/img/yemek2.jpeg" alt="Sol Görsel 2" className="w-[260px] h-[190px] object-cover rounded-2xl shadow-lg overflow-hidden group transition-transform duration-500 hover:scale-[1.02] bg-white" />
       </div>
     </div>
 
