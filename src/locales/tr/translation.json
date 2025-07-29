@@ -1,0 +1,104 @@
+{
+  "hero": {
+    "reserveRoom": "Odanızı Ayırın",
+    "mainTitle": "Eşsiz maceranız sizi bekliyor, rezervasyonunuzu yaptırın",
+    "reserveButton": "HEMEN YERİNİZİ AYIRIN"
+  },
+  "intro": {
+    "title": "Maceranızı Başlatmak İçin Vakit Kaybetmeyin",
+    "description": "Tunceli Ovacık'ta, turistik ve merkezi bir konumda bulunan otelimiz; samimi hizmeti ve müşteri memnuniyeti ile bölgedeki en tercih edilen konaklama seçeneklerinden biridir.",
+    "button": "Keşfetmeye Başlayın"
+  },
+"features": {
+    "iskinTitle": "Tunceli’ye Özgü Tat: Işkınlı Dondurma Sadece Otelimizde!",
+    "iskinDesc": "Ovacık yöresine ait eşsiz bir tat olan ışkınlı dondurmayı, otelimizde tüm misafirlerimize özel olarak sunuyoruz...",
+    "restaurantTitle": "Konforun ve Lezzetin Buluştuğu Yer: Hotel & Restaurant Deneyimi",
+    "restaurantDesc": "Otelimiz yalnızca konaklama değil, aynı zamanda zengin menüsüyle eşsiz bir restoran deneyimi de sunuyor..."
+  },
+  "roomSelection": {
+    "title": "ODA SEÇİMİ",
+    "subtitle": "Konforun ve lüksün buluştuğu odalarımızdan birini seçin",
+    "buttonReserve": "YER AYIR"
+  },
+  "rooms": {
+    "single": {
+      "title": "Tek Kişilik Odalarımız",
+      "features": {
+        "wifi": "Ücretsiz WiFi",
+        "jacuzzi": "Jakuzi",
+        "minibar": "Mini Bar",
+        "valetParking": "Vale Park Hizmeti"
+      }
+    },
+    "double": {
+      "title": "İki Kişilik Odalarımız",
+      "features": {
+        "wifi": "Ücretsiz WiFi",
+        "roomService": "Oda Servisi",
+        "coffeeMaker": "Kahve Makinesi",
+        "cityView": "Şehir Manzarası"
+      }
+    },
+    "family": {
+      "title": "Aile Odalarımız",
+      "features": {
+        "wifi": "Ücretsiz WiFi",
+        "privateBath": "Özel Banyo",
+        "teaCoffee": "Çay & Kahve",
+        "freeParking": "Ücretsiz Otopark"
+      }
+    }
+  },
+  "experience": {
+    "title": "MÜKEMMEL KONAKLAMA DENEYİMİ",
+    "description": "Dünya standartlarında hizmet, premium olanaklar ve olağanüstü konfor ile unutulmaz bir deneyim yaşayın.",
+    "services": {
+      "concierge": "7/24 CONCIERGE HİZMETİ",
+      "freeCancellation": "ÜCRETSİZ İPTAL",
+      "bestPrice": "EN İYİ FİYAT GARANTİSİ"
+    }
+  },
+   "contact": {
+    "header": {
+      "title": "Bize Ulaşın",
+      "subtitle": "Sorularınız, önerileriniz veya iş birliği teklifleriniz için bizimle iletişime geçin."
+    },
+    "infoSection": {
+      "title": "İletişim Bilgileri",
+      "address": {
+        "title": "Adres",
+        "text": "Pulur, Yeşil Yazı Cd. No:17, 62900 Ovacık/Tunceli"
+      },
+      "phone": {
+        "title": "Telefon",
+        "text": "(0428) 502 82 82"
+      },
+      "hours": {
+        "title": "Çalışma Saatleri",
+        "text": "Otelimiz müşterilerimiz için 7/24 hizmete açıktır."
+      }
+    },
+    "quickContact": {
+      "title": "Hızlı İletişim",
+      "description": "Acil durumlar için doğrudan bizi arayabilir veya WhatsApp üzerinden mesaj gönderebilirsiniz.",
+      "call": "Ara",
+      "whatsapp": "WhatsApp"
+    },
+    "location": {
+      "title": "Konumumuz",
+      "description": "Harita üzerinden bizi kolayca bulabilirsiniz"
+    },
+    "socialMedia": {
+      "title": "Sosyal Medyada Bizi Takip Edin",
+      "news": "Güncel haberler, duyurular ve özel içerikler için bizi takip etmeyi unutmayın."
+    }
+  },
+  "header": {
+    "menu": {
+      "home": "Ana Sayfa",
+      "rooms": "Odalarımız",
+      "contact": "İletişim"
+    }
+  }
+
+}

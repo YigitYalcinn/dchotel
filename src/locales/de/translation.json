@@ -1,0 +1,103 @@
+{
+  "hero": {
+    "reserveRoom": "Reservieren Sie Ihr Zimmer",
+    "mainTitle": "Ihr einzigartiges Abenteuer wartet – reservieren Sie jetzt",
+    "reserveButton": "JETZT RESERVIEREN"
+  },
+  "intro": {
+    "title": "Verlieren Sie keine Zeit, Ihr Abenteuer zu beginnen",
+    "description": "Unser Hotel in Tunceli Ovacık ist mit seinem freundlichen Service und der hohen Kundenzufriedenheit eine der beliebtesten Unterkünfte der Region.",
+    "button": "Jetzt Entdecken"
+  },
+  "features": {
+    "iskinTitle": "Regionale Spezialität aus Tunceli: Işkın-Eis nur in unserem Hotel!",
+    "iskinDesc": "Das einzigartige Işkın-Eis aus der Region Ovacık servieren wir exklusiv all unseren Gästen im Hotel...",
+    "restaurantTitle": "Wo Komfort auf Genuss trifft: Hotel- & Restaurant-Erlebnis",
+    "restaurantDesc": "Unser Hotel bietet nicht nur Übernachtung, sondern auch ein außergewöhnliches Restauranterlebnis mit reichhaltiger Speisekarte..."
+  },
+  "roomSelection": {
+    "title": "ZIMMERWAHL",
+    "subtitle": "Wählen Sie eines unserer Zimmer, in denen Komfort auf Luxus trifft",
+    "buttonReserve": "JETZT BUCHEN"
+  },
+  "rooms": {
+    "single": {
+      "title": "Einzelzimmer",
+      "features": {
+        "wifi": "Kostenloses WLAN",
+        "jacuzzi": "Jacuzzi",
+        "minibar": "Minibar",
+        "valetParking": "Parkservice"
+      }
+    },
+    "double": {
+      "title": "Doppelzimmer",
+      "features": {
+        "wifi": "Kostenloses WLAN",
+        "roomService": "Zimmerservice",
+        "coffeeMaker": "Kaffeemaschine",
+        "cityView": "Stadtblick"
+      }
+    },
+    "family": {
+      "title": "Familienzimmer",
+      "features": {
+        "wifi": "Kostenloses WLAN",
+        "privateBath": "Eigenes Bad",
+        "teaCoffee": "Tee & Kaffee",
+        "freeParking": "Kostenloses Parken"
+      }
+    }
+  },
+  "experience": {
+    "title": "HERVORRAGENDE UNTERKUNFTSERFAHRUNG",
+    "description": "Genießen Sie ein unvergessliches Erlebnis mit Service auf Weltklasseniveau, erstklassigen Annehmlichkeiten und außergewöhnlichem Komfort.",
+    "services": {
+      "concierge": "24/7 CONCIERGE-SERVICE",
+      "freeCancellation": "KOSTENLOSE STORNIERUNG",
+      "bestPrice": "BESTPREISGARANTIE"
+    }
+  },
+   "contact": {
+    "header": {
+      "title": "Kontaktieren Sie uns",
+      "subtitle": "Kontaktieren Sie uns bei Fragen, Vorschlägen oder Kooperationsangeboten."
+    },
+    "infoSection": {
+      "title": "Kontaktinformationen",
+      "address": {
+        "title": "Adresse",
+        "text": "Pulur, Yeşil Yazı Cd. No:17, 62900 Ovacık/Tunceli"
+      },
+      "phone": {
+        "title": "Telefon",
+        "text": "(0428) 502 82 82"
+      },
+      "hours": {
+        "title": "Öffnungszeiten",
+        "text": "Unser Hotel ist rund um die Uhr für unsere Gäste geöffnet."
+      }
+    },
+    "quickContact": {
+      "title": "Schneller Kontakt",
+      "description": "In Notfällen können Sie uns direkt anrufen oder eine Nachricht über WhatsApp senden.",
+      "call": "Anrufen",
+      "whatsapp": "WhatsApp"
+    },
+    "location": {
+      "title": "Unser Standort",
+      "description": "Sie können uns ganz einfach auf der Karte finden"
+    },
+    "socialMedia": {
+      "title": "Folgen Sie uns in den sozialen Medien",
+      "news": "Vergessen Sie nicht, uns für aktuelle Nachrichten, Ankündigungen und exklusive Inhalte zu folgen."
+    }
+  },
+  "header": {
+    "menu": {
+      "home": "Startseite",
+      "rooms": "Zimmer",
+      "contact": "Kontakt"
+    }
+  }
+}
