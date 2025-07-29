@@ -18,8 +18,8 @@ const Home = () => {
     style={{ backgroundImage: "url('/img/bgbg.jpeg')", opacity: 0.05 }}
   />
 
-  {/* Soldaki oda görseli */}
-  <div className="absolute top-1/2 left-[6%] -translate-y-1/2 w-[750px] h-[500px] rounded-3xl overflow-hidden shadow-lg z-10">
+  {/* Soldaki oda görseli - sadece md ve üstü */}
+  <div className="hidden md:block absolute top-1/2 left-[6%] -translate-y-1/2 w-[750px] h-[500px] rounded-3xl overflow-hidden shadow-lg z-10">
     <img
       src="/img/firstpageleft.jpeg"
       alt="Oda"
@@ -27,15 +27,15 @@ const Home = () => {
     />
   </div>
 
-  {/* Sağdaki Slogan Yazı */}
-  <div className="absolute right-[6%] top-1/2 -translate-y-1/2 text-white text-right z-20">
+  {/* Sağdaki Slogan Yazı - sadece md ve üstü */}
+  <div className="hidden md:block absolute right-[6%] top-1/2 -translate-y-1/2 text-white text-right z-20">
     <h3 className="text-5xl font-bold leading-tight">
       TUNCELİ OVACIK DC <br /> HOTEL&RESTAURANT
     </h3>
   </div>
 
-  {/* Ortada ama sola yakın rezervasyon kutusu */}
-  <div className="absolute top-[62%] left-[52%] z-30 w-[600px] h-[280px] bg-black/30 backdrop-blur-lg border border-white/20 rounded-xl px-12 py-10 shadow-2xl">
+  {/* Ortada ama sola yakın rezervasyon kutusu - sadece md ve üstü */}
+  <div className="hidden md:block absolute top-[62%] left-[52%] z-30 w-[600px] h-[280px] bg-black/30 backdrop-blur-lg border border-white/20 rounded-xl px-12 py-10 shadow-2xl">
     <p className="text-sm uppercase tracking-widest text-white/80 mb-3">
       Odanızı Ayırın
     </p>
@@ -58,8 +58,8 @@ const Home = () => {
 
 
   {/* Mobil versiyonu - md altı görünür */}
-  <div className="mobile-only flex flex-col items-center justify-center space-y-6 p-4 md:hidden">
-    <div className="w-full rounded-3xl overflow-hidden shadow-lg h-60">
+  <div className="flex flex-col items-center justify-center h-full space-y-4 p-4 md:hidden">
+    <div className="w-full rounded-2xl overflow-hidden shadow-lg h-40">
       <img
         src="/img/firstpageleft.jpeg"
         alt="Oda"
@@ -67,22 +67,22 @@ const Home = () => {
       />
     </div>
 
-    <div className="bg-black/15 backdrop-blur-lg border border-white/20 rounded-xl p-8 shadow-2xl w-full max-w-md">
-      <p className="text-sm uppercase tracking-widest text-white/80 mb-2 text-center">
+    <div className="bg-black/15 backdrop-blur-lg border border-white/20 rounded-xl p-6 shadow-2xl w-full max-w-sm">
+      <p className="text-xs uppercase tracking-widest text-white/80 mb-2 text-center">
         {t("hero.reserveRoom")}
       </p>
-      <h2 className="text-3xl font-bold text-white mb-6 text-center font-mono">
+      <h2 className="text-lg font-bold text-white mb-4 text-center font-mono leading-tight">
         {t("hero.mainTitle")}
       </h2>
       <button
         onClick={() => navigate("/reservation")}
-        className="mx-auto block px-12 py-5 bg-white text-black font-semibold rounded-md border border-black hover:bg-gray-200 transition"
+        className="mx-auto block px-6 py-3 bg-white text-black text-sm font-semibold rounded-md border border-black hover:bg-gray-200 transition"
       >
         {t("hero.reserveButton")}
       </button>
     </div>
 
-    <h3 className="text-3xl font-bold text-white text-center max-w-md mx-auto">
+    <h3 className="text-xl font-bold text-white text-center max-w-sm mx-auto">
       D&C <br /> HOTEL&RESTAURANT
     </h3>
   </div>
@@ -92,7 +92,7 @@ const Home = () => {
 
 {/* --------------------- */}
 
-<section className="w-full bg-white px-6 md:px-20 py-16">
+<section className="w-full bg-white px-4 sm:px-6 md:px-20 py-12 sm:py-16">
 
   {/* Masaüstü versiyonu - md ve üstü görünür */}
   <div className="hidden md:flex max-w-screen-xl mx-auto flex-col lg:flex-row items-center gap-12">
@@ -188,17 +188,17 @@ const Home = () => {
   </div>
 
   {/* Mobil versiyonu - sadece md altı görünür */}
-  <div className="flex flex-col md:hidden max-w-screen-md mx-auto space-y-8 px-4">
+  <div className="flex flex-col md:hidden max-w-screen-md mx-auto space-y-6 px-4">
 
     {/* Sol Metin Alanı */}
     <div>
-      <h2 className="text-3xl font-serif font-semibold text-[#1b1b1b] leading-tight mb-4 text-center">
+      <h2 className="text-xl sm:text-2xl font-serif font-semibold text-[#1b1b1b] leading-tight mb-3 text-center">
         {t("intro.title")}
       </h2>
-      <p className="text-gray-600 text-base leading-relaxed mb-6 text-center">
+      <p className="text-gray-600 text-xs sm:text-sm leading-relaxed mb-4 text-center">
         {t("intro.description")}
       </p>
-      <button className="w-full max-w-xs mx-auto block px-8 py-4 bg-white text-black font-bold rounded-md border border-black group overflow-hidden relative">
+      <button className="w-full max-w-xs mx-auto block px-6 py-3 bg-white text-black text-sm font-bold rounded-md border border-black group overflow-hidden relative">
         <span className="relative z-20 transition-colors duration-700 group-hover:text-white">
           {t("intro.button")}
         </span>
@@ -211,9 +211,9 @@ const Home = () => {
     </div>
 
     {/* Kartlar dikey, tam genişlik */}
-    <div className="flex flex-col items-center gap-8">
+    <div className="flex flex-col items-center gap-4 sm:gap-6">
 
-      <div className="w-full max-w-xs">
+      <div className="w-full max-w-sm">
         <Card
           title="MODERN STAY"
           subtitle="Lüks ve konforun buluşma noktası."
@@ -224,7 +224,7 @@ const Home = () => {
         />
       </div>
 
-      <div className="w-full max-w-xs">
+      <div className="w-full max-w-sm">
         <Card
           title="NATURE ROOM"
           subtitle="Doğayla iç içe huzurlu bir oda."
@@ -235,7 +235,7 @@ const Home = () => {
         />
       </div>
 
-      <div className="w-full max-w-xs">
+      <div className="w-full max-w-sm">
         <Card
           title="WARM LOFT"
           subtitle="Sıcak ve zarif detaylarla donatılmış."
@@ -253,66 +253,77 @@ const Home = () => {
 
 
 
-<section className="relative w-full min-h-screen bg-[#131212] py-32 px-4 md:px-8 lg:px-24 xl:px-32 2xl:px-48">
-  <div className="flex flex-col gap-24 items-center justify-center">
+<section className="relative w-full min-h-screen bg-[#131212] py-16 sm:py-24 md:py-32 px-4 sm:px-6 md:px-8 lg:px-24 xl:px-32 2xl:px-48">
+  <div className="flex flex-col gap-12 sm:gap-16 md:gap-24 items-center justify-center">
 
     {/* Üst Kart + Sağındaki 2 Görsel */}
-    <div className="flex flex-col lg:flex-row gap-10 w-full max-w-7xl items-stretch">
+    <div className="flex flex-col lg:flex-row gap-6 sm:gap-8 md:gap-10 w-full max-w-7xl items-stretch">
       
       {/* Kart */}
       <div className="flex-1 border border-black rounded-2xl overflow-hidden group transition-transform duration-500 hover:scale-[1.02] bg-white">
         <div className="flex flex-col md:flex-row h-full">
-          <div className="md:w-1/2 h-[400px]">
+          <div className="md:w-1/2 h-[250px] sm:h-[300px] md:h-[400px]">
             <img src="/img/iskin.jpg" alt="Işkın" className="w-full h-full object-cover" />
           </div>
-          <div className="md:w-1/2 p-8 flex flex-col justify-center">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">
+          <div className="md:w-1/2 p-4 sm:p-6 md:p-8 flex flex-col justify-center">
+            <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-3 sm:mb-4 md:mb-6">
               {t("features.iskinTitle")}
             </h2>
-            <p className="text-gray-700 text-lg leading-relaxed">
+            <p className="text-gray-700 text-sm sm:text-base md:text-lg leading-relaxed">
               {t("features.iskinDesc")}
             </p>
           </div>
         </div>
       </div>
 
-      {/* Sağdaki 2 Görsel */}
+      {/* Sağdaki 2 Görsel - sadece lg ve üstü */}
       <div className="hidden lg:flex flex-col gap-6 ">
         <img src="/img/iskin2.jpeg" alt="Sağ Görsel 1" className="w-[260px] h-[190px] object-cover rounded-2xl shadow-lg overflow-hidden group transition-transform duration-500 hover:scale-[1.02] bg-white" />
         <img src="/img/iskin3.jpeg" alt="Sağ Görsel 2" className="w-[260px] h-[190px] object-cover rounded-2xl shadow-lg overflow-hidden group transition-transform duration-500 hover:scale-[1.02] bg-white" />
       </div>
+
+      {/* Tablet için ek görseller */}
+      <div className="lg:hidden flex flex-row gap-4 mt-4 sm:mt-6">
+        <img src="/img/iskin2.jpeg" alt="Sağ Görsel 1" className="w-1/2 h-24 sm:h-32 object-cover rounded-2xl shadow-lg overflow-hidden group transition-transform duration-500 hover:scale-[1.02] bg-white" />
+        <img src="/img/iskin3.jpeg" alt="Sağ Görsel 2" className="w-1/2 h-24 sm:h-32 object-cover rounded-2xl shadow-lg overflow-hidden group transition-transform duration-500 hover:scale-[1.02] bg-white" />
+      </div>
     </div>
 
     {/* Alt Kart + Solundaki 2 Görsel */}
-    <div className="flex flex-col lg:flex-row-reverse gap-10 w-full max-w-7xl items-stretch">
+    <div className="flex flex-col lg:flex-row-reverse gap-6 sm:gap-8 md:gap-10 w-full max-w-7xl items-stretch">
       
       {/* Kart */}
       <div className="flex-1 border border-black rounded-2xl overflow-hidden group transition-transform duration-500 hover:scale-[1.02] bg-white">
         <div className="flex flex-col md:flex-row h-full">
-          <div className="md:w-1/2 h-[400px]">
+          <div className="md:w-1/2 h-[250px] sm:h-[300px] md:h-[400px]">
             <img src="/img/resto.jpg" alt="Restaurant" className="w-full h-full object-cover" />
           </div>
-          <div className="md:w-1/2 p-8 flex flex-col justify-center">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">
+          <div className="md:w-1/2 p-4 sm:p-6 md:p-8 flex flex-col justify-center">
+            <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-3 sm:mb-4 md:mb-6">
               {t("features.restaurantTitle")}
             </h2>
-            <p className="text-gray-700 text-lg leading-relaxed">
+            <p className="text-gray-700 text-sm sm:text-base md:text-lg leading-relaxed">
               {t("features.restaurantDesc")}
             </p>
           </div>
         </div>
       </div>
 
-      {/* Soldaki 2 Görsel */}
+      {/* Soldaki 2 Görsel - sadece lg ve üstü */}
       <div className="hidden lg:flex flex-col gap-6">
         <img src="/img/yemek1.jpeg" alt="Sol Görsel 1" className="w-[260px] h-[190px] object-cover rounded-2xl shadow-lg overflow-hidden group transition-transform duration-500 hover:scale-[1.02] bg-white" />
         <img src="/img/yemek2.jpeg" alt="Sol Görsel 2" className="w-[260px] h-[190px] object-cover rounded-2xl shadow-lg overflow-hidden group transition-transform duration-500 hover:scale-[1.02] bg-white" />
+      </div>
+
+      {/* Tablet için ek görseller */}
+      <div className="lg:hidden flex flex-row gap-4 mt-4 sm:mt-6">
+        <img src="/img/yemek1.jpeg" alt="Sol Görsel 1" className="w-1/2 h-24 sm:h-32 object-cover rounded-2xl shadow-lg overflow-hidden group transition-transform duration-500 hover:scale-[1.02] bg-white" />
+        <img src="/img/yemek2.jpeg" alt="Sol Görsel 2" className="w-1/2 h-24 sm:h-32 object-cover rounded-2xl shadow-lg overflow-hidden group transition-transform duration-500 hover:scale-[1.02] bg-white" />
       </div>
     </div>
 
   </div>
 </section>
-
 
 
 
