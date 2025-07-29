@@ -9,84 +9,53 @@ const Home = () => {
   const navigate = useNavigate(); 
   return (
     <>
-    {/* Hero Section */}
-<div className="my-10 h-screen relative">
+   {/* Hero Section */}
+<div className="my-10 h-screen relative bg-[#131212] overflow-hidden">
 
-  {/* Masaüstü versiyonu - sadece md ve üstü görünür */}
-  <div className="desktop-only hidden md:block h-full  items-center justify-center overflow-hidden bg-[#131212] backdrop-brightness-75 relative">
-    <div
-      className="absolute inset-0 bg-cover bg-center"
-      style={{ backgroundImage: "url('/img/bgbg.jpeg')", opacity: 0.05 }}
+  {/* Arka plan transparan görsel */}
+  <div
+    className="absolute inset-0 bg-cover bg-center"
+    style={{ backgroundImage: "url('/img/bgbg.jpeg')", opacity: 0.05 }}
+  />
+
+  {/* Soldaki oda görseli */}
+  <div className="absolute top-1/2 left-[6%] -translate-y-1/2 w-[750px] h-[500px] rounded-3xl overflow-hidden shadow-lg z-10">
+    <img
+      src="/img/firstpageleft.jpeg"
+      alt="Oda"
+      className="w-full h-full object-cover"
     />
-    <div className="ml-24 absolute left-12 top-1/2 -translate-y-1/2 w-[900px] h-[600px] rounded-3xl overflow-hidden z-10 shadow-lg">
-      <img
-        src="/img/firstpageleft.jpeg"
-        alt="Oda"
-        className="w-full h-full object-cover"
-      />
-    </div>
-
-    <div className="absolute top-[55%] left-[850px] z-20">
-      <div className="bg-black/15 backdrop-blur-lg border border-white/20 rounded-xl px-20 py-12 shadow-2xl w-[700px] h-[300px]">
-        <p className="text-sm uppercase tracking-widest text-white/80 mb-2 text-start">
-          {t("hero.reserveRoom")}
-        </p>
-        <h2 className="text-3xl font-bold text-white mb-6 text-start font-mono">
-          {t("hero.mainTitle")}
-        </h2>
-
-        <button
-          onClick={() => navigate("/reservation")}
-          className="mx-auto block relative px-12 py-5 bg-white text-black font-helvetica font-semibold text-lg rounded-md overflow-hidden border border-black group"
-        >
-          <span className="relative z-20 transition-colors duration-700 group-hover:text-white">
-            {t("hero.reserveButton")}
-          </span>
-
-          <span className="absolute inset-0 bg-[#131212] origin-left scale-x-0 transition-transform duration-1000 ease-in-out group-hover:scale-x-100 z-10"></span>
-
-          <span
-            aria-hidden="true"
-            className="pointer-events-none absolute inset-0 rounded-md border border-black z-30"
-          ></span>
-
-          <svg
-            className="absolute inset-0 w-full h-full pointer-events-none rounded-md z-40 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
-            xmlns="http://www.w3.org/2000/svg"
-            preserveAspectRatio="none"
-            viewBox="0 0 180 50"
-          >
-            <rect
-              x="1"
-              y="1"
-              width="178"
-              height="48"
-              fill="none"
-              stroke="white"
-              strokeWidth="2"
-              strokeDasharray="356"
-              strokeDashoffset="0"
-              style={{ animation: 'dashmove 5s linear infinite' }}
-            />
-          </svg>
-
-          <style jsx>{`
-            @keyframes dashmove {
-              100% {
-                stroke-dashoffset: -356;
-              }
-            }
-          `}</style>
-        </button>
-      </div>
-    </div>
-
-    <div className="absolute right-20 top-1/2 -translate-y-1/2 text-white text-right z-10">
-      <h3 className="text-5xl font-bold leading-tight">
-        TUNCELİ OVACIK DC<br /> HOTEL&RESTAURANT
-      </h3>
-    </div>
   </div>
+
+  {/* Sağdaki Slogan Yazı */}
+  <div className="absolute right-[6%] top-1/2 -translate-y-1/2 text-white text-right z-20">
+    <h3 className="text-5xl font-bold leading-tight">
+      TUNCELİ OVACIK DC <br /> HOTEL&RESTAURANT
+    </h3>
+  </div>
+
+  {/* Ortada ama sola yakın rezervasyon kutusu */}
+  <div className="absolute top-[62%] left-[52%] z-30 w-[600px] h-[280px] bg-black/30 backdrop-blur-lg border border-white/20 rounded-xl px-12 py-10 shadow-2xl">
+    <p className="text-sm uppercase tracking-widest text-white/80 mb-3">
+      Odanızı Ayırın
+    </p>
+    <h2 className="text-2xl font-bold text-white mb-6 font-mono leading-snug">
+      Eşsiz maceranız sizi bekliyor, <br /> rezervasyonunuzu yaptırın
+    </h2>
+
+    <button
+      onClick={() => navigate("/reservation")}
+      className="px-10 py-4 bg-white text-black text-lg font-semibold rounded-md relative overflow-hidden border border-black group"
+    >
+      <span className="relative z-20 group-hover:text-white transition-colors duration-700">
+        HEMEN YERİNİZİ AYIRIN
+      </span>
+      <span className="absolute inset-0 bg-black origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-1000 z-10"></span>
+      <span className="absolute inset-0 rounded-md border border-black pointer-events-none z-30"></span>
+    </button>
+  </div>
+
+
 
   {/* Mobil versiyonu - md altı görünür */}
   <div className="mobile-only flex flex-col items-center justify-center space-y-6 p-4 md:hidden">
