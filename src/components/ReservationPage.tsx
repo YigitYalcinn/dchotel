@@ -26,7 +26,6 @@ export default function ReservationPage() {
       image: "/img/tek.jpeg",
       features: [
         { icon: <Wifi className="w-4 h-4" />, text: t('rooms.single.features.wifi') },
-        { icon: <Bath className="w-4 h-4" />, text: t('rooms.single.features.jacuzzi') },
         { icon: <Coffee className="w-4 h-4" />, text: t('rooms.single.features.minibar') },
         { icon: <Car className="w-4 h-4" />, text: t('rooms.single.features.valetParking') }
       ]
@@ -38,7 +37,6 @@ export default function ReservationPage() {
       features: [
         { icon: <Wifi className="w-4 h-4" />, text: t('rooms.double.features.wifi') },
         { icon: <Utensils className="w-4 h-4" />, text: t('rooms.double.features.roomService') },
-        { icon: <Coffee className="w-4 h-4" />, text: t('rooms.double.features.coffeeMaker') },
         { icon: <MapPin className="w-4 h-4" />, text: t('rooms.double.features.cityView') }
       ]
     },
@@ -49,8 +47,7 @@ export default function ReservationPage() {
       features: [
         { icon: <Wifi className="w-4 h-4" />, text: t('rooms.family.features.wifi') },
         { icon: <Bath className="w-4 h-4" />, text: t('rooms.family.features.privateBath') },
-        { icon: <Coffee className="w-4 h-4" />, text: t('rooms.family.features.teaCoffee') },
-        { icon: <Car className="w-4 h-4" />, text: t('rooms.family.features.freeParking') }
+        { icon: <Coffee className="w-4 h-4" />, text: t('rooms.family.features.teaCoffee') }
       ]
     }
   ];
