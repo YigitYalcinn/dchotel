@@ -28,7 +28,7 @@ const Home = () => {
   </div>
 
   {/* Sağdaki Slogan Yazı - sadece md ve üstü */}
-  <div className="hidden md:block absolute right-[2%] top-[40%] -translate-y-1/2 text-white text-right z-20">
+  <div className="hidden md:block absolute right-[2%] top-[45%] -translate-y-1/2 text-white text-right z-20">
     <img 
       src="/img/logo1.png" 
       alt="DC& HOTEL" 
@@ -37,7 +37,7 @@ const Home = () => {
   </div>
 
   {/* Ortada ama sola yakın rezervasyon kutusu - sadece md ve üstü */}
-  <div className="hidden md:block absolute top-[62%] left-[52%] z-30 w-[600px] h-[280px] bg-black/30 backdrop-blur-lg border border-white/20 rounded-xl px-12 py-10 shadow-2xl">
+  <div className="hidden md:block absolute top-[62%] left-[35%] z-30 w-[600px] h-[280px] bg-black/30 backdrop-blur-lg border border-white/20 rounded-xl px-12 py-10 shadow-2xl">
     <p className="text-sm uppercase tracking-widest text-white/80 mb-3">
       Odanızı Ayırın
     </p>
