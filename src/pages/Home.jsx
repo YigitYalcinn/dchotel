@@ -28,10 +28,12 @@ const Home = () => {
   </div>
 
   {/* Sağdaki Slogan Yazı - sadece md ve üstü */}
-  <div className="hidden md:block absolute right-[6%] top-1/2 -translate-y-1/2 text-white text-right z-20">
-    <h3 className="text-5xl font-bold leading-tight">
-      TUNCELİ OVACIK DC <br /> HOTEL&RESTAURANT
-    </h3>
+  <div className="hidden md:block absolute right-[2%] top-[40%] -translate-y-1/2 text-white text-right z-20">
+    <img 
+      src="/img/logo1.png" 
+      alt="DC& HOTEL" 
+      className="w-[500px] h-auto transform rotate-90"
+    />
   </div>
 
   {/* Ortada ama sola yakın rezervasyon kutusu - sadece md ve üstü */}
@@ -82,9 +84,11 @@ const Home = () => {
       </button>
     </div>
 
-    <h3 className="text-xl font-bold text-white text-center max-w-sm mx-auto">
-      D&C <br /> HOTEL&RESTAURANT
-    </h3>
+    <img 
+      src="/img/logo1.png" 
+      alt="DC& HOTEL" 
+      className="h-16 w-auto mt-4"
+    />
   </div>
 </div>
 

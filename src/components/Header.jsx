@@ -83,7 +83,11 @@ const Header = () => {
             onClick={() => handleNavigate("/")}
             className="block focus:outline-none"
           >
-            D&C HOTEL
+            <img 
+              src={scrolled ? "/img/logo2.png" : "/img/logo1.png"}
+              alt="DC& HOTEL" 
+              className={scrolled ? "h-14 w-auto" : "h-10 w-auto"}
+            />
           </button>
         </div>
 

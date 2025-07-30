@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Ana Sayfa Resimleri -->
+  <url>
+    <loc>https://dchotel.com/</loc>
+    <image:image>
+      <image:loc>https://dchotel.com/img/firstpageleft.jpeg</image:loc>
+      <image:title>DC HOTEL - Tunceli Ovacık Oda Görseli</image:title>
+      <image:caption>Lüks ve konforlu oda görseli</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://dchotel.com/img/logo1.png</image:loc>
+      <image:title>DC HOTEL Logo</image:title>
+      <image:caption>DC HOTEL resmi logosu</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://dchotel.com/img/bgbg.jpeg</image:loc>
+      <image:title>DC HOTEL Arka Plan</image:title>
+      <image:caption>Otel arka plan görseli</image:caption>
+    </image:image>
+  </url>
+  
+  <!-- Rezervasyon Sayfası Resimleri -->
+  <url>
+    <loc>https://dchotel.com/reservation</loc>
+    <image:image>
+      <image:loc>https://dchotel.com/img/kart1.jpeg</image:loc>
+      <image:title>MODERN STAY - Lüks Oda</image:title>
+      <image:caption>Modern ve lüks oda görseli</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://dchotel.com/img/kart2.jpeg</image:loc>
+      <image:title>WARM LOFT - Sıcak Loft</image:title>
+      <image:caption>Rustik dokunuşlarla modern yaşam alanı</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://dchotel.com/img/kart3.jpg</image:loc>
+      <image:title>NATURE ROOM - Doğa Odası</image:title>
+      <image:caption>Doğayla iç içe huzurlu oda</image:caption>
+    </image:image>
+  </url>
+  
+  <!-- Özellikler Bölümü Resimleri -->
+  <url>
+    <loc>https://dchotel.com/#features</loc>
+    <image:image>
+      <image:loc>https://dchotel.com/img/iskin.jpg</image:loc>
+      <image:title>Işkın Restoran - DC HOTEL</image:title>
+      <image:caption>Işkın restoran görseli</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://dchotel.com/img/iskin2.jpeg</image:loc>
+      <image:title>Işkın Restoran Detay</image:title>
+      <image:caption>Restoran detay görseli</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://dchotel.com/img/iskin3.jpeg</image:loc>
+      <image:title>Işkın Restoran İç Mekan</image:title>
+      <image:caption>Restoran iç mekan görseli</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://dchotel.com/img/resto.jpg</image:loc>
+      <image:title>Restoran - DC HOTEL</image:title>
+      <image:caption>Ana restoran görseli</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://dchotel.com/img/yemek1.jpeg</image:loc>
+      <image:title>Lezzetli Yemekler</image:title>
+      <image:caption>Restoran yemek görseli</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://dchotel.com/img/yemek2.jpeg</image:loc>
+      <image:title>Özel Menü</image:title>
+      <image:caption>Özel yemek menüsü</image:caption>
+    </image:image>
+  </url>
+  
+  <!-- Bayrak Resimleri -->
+  <url>
+    <loc>https://dchotel.com/</loc>
+    <image:image>
+      <image:loc>https://dchotel.com/img/turkey.png</image:loc>
+      <image:title>Türkçe Dil Seçeneği</image:title>
+      <image:caption>Türkiye bayrağı</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://dchotel.com/img/united-kingdom.png</image:loc>
+      <image:title>English Language Option</image:title>
+      <image:caption>İngiltere bayrağı</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://dchotel.com/img/germany.png</image:loc>
+      <image:title>Deutsche Sprachoption</image:title>
+      <image:caption>Almanya bayrağı</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://dchotel.com/img/russia.png</image:loc>
+      <image:title>Русский язык</image:title>
+      <image:caption>Rusya bayrağı</image:caption>
+    </image:image>
+  </url>
+  
+</urlset> 

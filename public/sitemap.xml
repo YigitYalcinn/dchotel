@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- Image Sitemap -->
+  <url>
+    <loc>https://dchotel.com/image-sitemap.xml</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <!-- Ana Sayfa -->
+  <url>
+    <loc>https://dchotel.com/</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Rezervasyon Sayfası -->
+  <url>
+    <loc>https://dchotel.com/reservation</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- İletişim Bölümü (Ana sayfa içinde) -->
+  <url>
+    <loc>https://dchotel.com/#iletisim</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Hakkımızda Bölümü (Ana sayfa içinde) -->
+  <url>
+    <loc>https://dchotel.com/#about</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Özellikler Bölümü (Ana sayfa içinde) -->
+  <url>
+    <loc>https://dchotel.com/#features</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+</urlset> 
